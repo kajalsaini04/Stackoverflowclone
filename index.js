@@ -21,10 +21,10 @@ app.use("/user", userRoutes);
 app.use("/questions", questionRoutes);
 app.use("/answer", answerRoutes);
 
-const PORT = process.env.PORT;
+const PORT = 5000;
 
 const DATABASE_URL =
-  "mongodb+srv://admin:admin@stack-overflow-clone.5xudibm.mongodb.net/?retryWrites=true&w=majority";
+"mongodb+srv://admin:admin@stack-overflow-clone.gyandvo.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose
   .connect(DATABASE_URL, {
